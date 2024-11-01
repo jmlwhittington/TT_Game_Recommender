@@ -1,101 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<style>
-/* Base Styles */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #1c1b21; /* Dark background */
-    color: #f5f5f5; /* Light text for contrast */
-    margin: 0;
-    padding: 0;
-}
-
-h2 {
-    color: #ffffff;
-    font-weight: 400;
-    text-align: center;
-    padding: 15px 0;
-    margin-top: 0;
-}
-
-/* Container */
-.container {
-    max-width: 700px;
-    margin: 40px auto;
-    padding: 30px;
-    background-color: #2a2935; /* Darker section background */
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
-}
-
-/* Form Labels */
-label {
-    display: block;
-    margin-top: 20px;
-    color: #d1d1d6;
-    font-size: 16px;
-}
-
-/* Input and Select */
-input[type="number"],
-select {
-    width: 100%;
-    margin-top: 10px;
-    padding: 12px;
-    border-radius: 5px;
-    border: none;
-    background-color: #3a3947;
-    color: #f5f5f5;
-    font-size: 15px;
-}
-
-input[type="number"]::placeholder {
-    color: #bdbdc2; /* Lighter placeholder text */
-}
-
-/* Button */
-button {
-    width: 100%;
-    margin-top: 20px;
-    padding: 12px 20px;
-    background-color: #8f4cd1; /* GOG-inspired purple accent */
-    border: none;
-    border-radius: 5px;
-    color: #ffffff;
-    font-size: 16px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-}
-
-button:hover {
-    background-color: #a15ce2; /* Slightly lighter purple on hover */
-}
-
-/* Results */
-h3 {
-    margin-top: 30px;
-    font-weight: 400;
-    font-size: 18px;
-    color: #ffffff;
-    text-align: center;
-}
-
-ul {
-    list-style-type: none;
-    padding-left: 0;
-    margin-top: 20px;
-}
-
-ul li {
-    background-color: #32313f;
-    padding: 12px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    font-size: 15px;
-    color: #f5f5f5;
-}
-</style>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -107,6 +11,7 @@ ul li {
         select, input[type="number"] { width: 100%; margin-top: 5px; padding: 8px; }
         button { margin-top: 15px; padding: 10px 15px; cursor: pointer; }
         ul { list-style: none; padding-left: 0; }
+        .error { color: red; font-style: italic; text-align: center; }
     </style>
 </head>
 <body>
@@ -241,15 +146,23 @@ ul li {
         displayGames(shuffleArray(filteredGames).slice(0, 5));
     }
 
-    // Display up to 5 games
+    // Display up to 5 games or show an error if no games match
     function displayGames(games) {
         const results = document.getElementById('results');
         results.innerHTML = '';
-        games.forEach(game => {
-            const li = document.createElement('li');
-            li.textContent = `${game.Game} (${game.Year}) - ${game.Genre}`;
-            results.appendChild(li);
-        });
+
+        if (games.length === 0) {
+            const errorMessage = document.createElement('li');
+            errorMessage.textContent = "No games found. Try adjusting your search criteria.";
+            errorMessage.classList.add('error');
+            results.appendChild(errorMessage);
+        } else {
+            games.forEach(game => {
+                const li = document.createElement('li');
+                li.textContent = `${game.Game} (${game.Year}) - ${game.Genre}`;
+                results.appendChild(li);
+            });
+        }
     }
 
     // Utility function to shuffle an array
