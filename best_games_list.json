@@ -1,0 +1,1994 @@
+[
+	{
+		"Year": 1971,
+		"Game": "The Oregon Trail",
+		"Genre": "Strategy",
+		"Original platform(s)": "HP 2100"
+	},
+	{
+		"Year": 1972,
+		"Game": "Pong",
+		"Genre": "Sports",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1977,
+		"Game": "Combat",
+		"Genre": "Top-down shooter",
+		"Original platform(s)": "Atari 2600"
+	},
+	{
+		"Year": 1977,
+		"Game": "Zork",
+		"Genre": "Adventure",
+		"Original platform(s)": "PDP-10"
+	},
+	{
+		"Year": 1978,
+		"Game": "Space Invaders",
+		"Genre": "Shoot 'em up",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1979,
+		"Game": "Asteroids",
+		"Genre": "Shoot 'em up",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1980,
+		"Game": "Adventure",
+		"Genre": "Action-adventure",
+		"Original platform(s)": "Atari 2600"
+	},
+	{
+		"Year": 1980,
+		"Game": "Battlezone",
+		"Genre": "Vehicle simulation",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1980,
+		"Game": "Missile Command",
+		"Genre": "Shoot 'em up",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1980,
+		"Game": "Pac-Man",
+		"Genre": "Maze",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1981,
+		"Game": "Centipede",
+		"Genre": "Shoot 'em up",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1981,
+		"Game": "Defender",
+		"Genre": "Shoot 'em up",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1981,
+		"Game": "Donkey Kong",
+		"Genre": "Platform",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1981,
+		"Game": "Frogger",
+		"Genre": "Action",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1981,
+		"Game": "Galaga",
+		"Genre": "Shoot 'em up",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1981,
+		"Game": "Tempest",
+		"Genre": "Shoot 'em up",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1981,
+		"Game": "Wizardry: Proving Grounds of the Mad Overlord",
+		"Genre": "Role-playing",
+		"Original platform(s)": "Apple II"
+	},
+	{
+		"Year": 1982,
+		"Game": "Joust",
+		"Genre": "Action",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1982,
+		"Game": "Ms. Pac-Man",
+		"Genre": "Maze",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1982,
+		"Game": "Pitfall!",
+		"Genre": "Platform",
+		"Original platform(s)": "Atari 2600"
+	},
+	{
+		"Year": 1982,
+		"Game": "Robotron: 2084",
+		"Genre": "Top-down shooter",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1983,
+		"Game": "Archon: The Light and the Dark",
+		"Genre": "Strategy",
+		"Original platform(s)": "Atari 8-bit"
+	},
+	{
+		"Year": 1983,
+		"Game": "Lode Runner",
+		"Genre": "Platform",
+		"Original platform(s)": "Apple II"
+	},
+	{
+		"Year": 1983,
+		"Game": "M.U.L.E.",
+		"Genre": "Business simulation",
+		"Original platform(s)": ["Atari 8-bit, Commodore 64"]
+	},
+	{
+		"Year": 1983,
+		"Game": "Star Wars",
+		"Genre": "Rail shooter",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1984,
+		"Game": "Elite",
+		"Genre": "Space flight simulator",
+		"Original platform(s)": "BBC Micro"
+	},
+	{
+		"Year": 1984,
+		"Game": "Marble Madness",
+		"Genre": "Action",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1985,
+		"Game": "Gauntlet",
+		"Genre": "Hack and slash",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1985,
+		"Game": "Ghosts 'n Goblins",
+		"Genre": "Platform",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1985,
+		"Game": "Super Mario Bros.",
+		"Genre": "Platform",
+		"Original platform(s)": "NES"
+	},
+	{
+		"Year": 1985,
+		"Game": "Tetris",
+		"Genre": "Puzzle",
+		"Original platform(s)": "Electronika 60"
+	},
+	{
+		"Year": 1985,
+		"Game": "Ultima IV: Quest of the Avatar",
+		"Genre": "Role-playing",
+		"Original platform(s)": "Apple II"
+	},
+	{
+		"Year": 1986,
+		"Game": "Arkanoid",
+		"Genre": "Block breaker",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1986,
+		"Game": "Bubble Bobble",
+		"Genre": "Platform",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1986,
+		"Game": "The Legend of Zelda",
+		"Genre": "Action-adventure",
+		"Original platform(s)": "NES"
+	},
+	{
+		"Year": 1986,
+		"Game": "Out Run",
+		"Genre": "Racing",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1987,
+		"Game": "Contra",
+		"Genre": "Run and gun",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1987,
+		"Game": "Double Dragon",
+		"Genre": "Beat 'em up",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1987,
+		"Game": "Dungeon Master",
+		"Genre": "Role-playing",
+		"Original platform(s)": "Atari ST"
+	},
+	{
+		"Year": 1987,
+		"Game": "Mike Tyson's Punch-Out!!",
+		"Genre": "Sports",
+		"Original platform(s)": "NES"
+	},
+	{
+		"Year": 1987,
+		"Game": "R-Type",
+		"Genre": "Shoot 'em up",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1987,
+		"Game": "Sid Meier's Pirates!",
+		"Genre": "Action-adventure",
+		"Original platform(s)": "Commodore 64"
+	},
+	{
+		"Year": 1988,
+		"Game": "Mega Man 2",
+		"Genre": "Platform",
+		"Original platform(s)": "NES"
+	},
+	{
+		"Year": 1988,
+		"Game": "Ninja Gaiden",
+		"Genre": "Platform",
+		"Original platform(s)": "NES"
+	},
+	{
+		"Year": 1988,
+		"Game": "Super Mario Bros. 3",
+		"Genre": "Platform",
+		"Original platform(s)": "NES"
+	},
+	{
+		"Year": 1989,
+		"Game": "Final Fight",
+		"Genre": "Beat 'em up",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1989,
+		"Game": "Populous",
+		"Genre": "God game",
+		"Original platform(s)": "Amiga"
+	},
+	{
+		"Year": 1989,
+		"Game": "Prince of Persia",
+		"Genre": "Platform",
+		"Original platform(s)": "Apple II"
+	},
+	{
+		"Year": 1989,
+		"Game": "SimCity",
+		"Genre": "City-building",
+		"Original platform(s)": ["Amiga, Mac"]
+	},
+	{
+		"Year": 1990,
+		"Game": "The Secret of Monkey Island",
+		"Genre": "Adventure",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1990,
+		"Game": "Speedball 2: Brutal Deluxe",
+		"Genre": "Sports",
+		"Original platform(s)": ["Amiga, Atari ST"]
+	},
+	{
+		"Year": 1990,
+		"Game": "Super Mario World",
+		"Genre": "Platform",
+		"Original platform(s)": "Super NES"
+	},
+	{
+		"Year": 1990,
+		"Game": "Wing Commander",
+		"Genre": "Space flight simulator",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1991,
+		"Game": "Another World",
+		"Genre": "Platform",
+		"Original platform(s)": ["Amiga, Atari ST"]
+	},
+	{
+		"Year": 1991,
+		"Game": "Civilization",
+		"Genre": "Turn-based strategy",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1991,
+		"Game": "Final Fantasy IV",
+		"Genre": "Role-playing",
+		"Original platform(s)": "Super NES"
+	},
+	{
+		"Year": 1991,
+		"Game": "The Legend of Zelda: A Link to the Past",
+		"Genre": "Action-adventure",
+		"Original platform(s)": "Super NES"
+	},
+	{
+		"Year": 1991,
+		"Game": "Lemmings",
+		"Genre": "Puzzle",
+		"Original platform(s)": "Amiga"
+	},
+	{
+		"Year": 1991,
+		"Game": "Micro Machines",
+		"Genre": "Racing",
+		"Original platform(s)": "NES"
+	},
+	{
+		"Year": 1991,
+		"Game": "Monkey Island 2: LeChuck's Revenge",
+		"Genre": "Adventure",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1991,
+		"Game": "Sonic the Hedgehog",
+		"Genre": "Platform",
+		"Original platform(s)": "Sega Genesis"
+	},
+	{
+		"Year": 1991,
+		"Game": "Street Fighter II",
+		"Genre": "Fighting",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1991,
+		"Game": "Super Castlevania IV",
+		"Genre": "Platform",
+		"Original platform(s)": "Super NES"
+	},
+	{
+		"Year": 1992,
+		"Game": "Alone in the Dark",
+		"Genre": "Survival horror",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1992,
+		"Game": "Contra III: The Alien Wars",
+		"Genre": "Run and gun",
+		"Original platform(s)": "Super NES"
+	},
+	{
+		"Year": 1992,
+		"Game": "Dune II",
+		"Genre": "Real-time strategy",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1992,
+		"Game": "Flashback",
+		"Genre": "Platform",
+		"Original platform(s)": "Amiga"
+	},
+	{
+		"Year": 1992,
+		"Game": "Indiana Jones and the Fate of Atlantis",
+		"Genre": "Adventure",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1992,
+		"Game": "Mortal Kombat",
+		"Genre": "Fighting",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1992,
+		"Game": "Sensible Soccer",
+		"Genre": "Sports",
+		"Original platform(s)": ["Amiga, Atari ST"]
+	},
+	{
+		"Year": 1992,
+		"Game": "Sonic the Hedgehog 2",
+		"Genre": "Platform",
+		"Original platform(s)": "Sega Genesis"
+	},
+	{
+		"Year": 1992,
+		"Game": "Star Control II",
+		"Genre": "Action-adventure",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1992,
+		"Game": "Streets of Rage 2",
+		"Genre": "Beat 'em up",
+		"Original platform(s)": "Sega Genesis"
+	},
+	{
+		"Year": 1992,
+		"Game": "Super Mario Kart",
+		"Genre": "Kart racing",
+		"Original platform(s)": "Super NES"
+	},
+	{
+		"Year": 1992,
+		"Game": "Ultima VII: The Black Gate",
+		"Genre": "Role-playing",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1992,
+		"Game": "Virtua Racing",
+		"Genre": "Racing",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1992,
+		"Game": "Wolfenstein 3D",
+		"Genre": "First-person shooter",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1993,
+		"Game": "Day of the Tentacle",
+		"Genre": "Adventure",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1993,
+		"Game": "Doom",
+		"Genre": "First-person shooter",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1993,
+		"Game": "Gunstar Heroes",
+		"Genre": "Run and gun",
+		"Original platform(s)": "Sega Genesis"
+	},
+	{
+		"Year": 1993,
+		"Game": "The Legend of Zelda: Link's Awakening",
+		"Genre": "Action-adventure",
+		"Original platform(s)": "Game Boy"
+	},
+	{
+		"Year": 1993,
+		"Game": "Mega Man X",
+		"Genre": "Platform",
+		"Original platform(s)": "Super NES"
+	},
+	{
+		"Year": 1993,
+		"Game": "Mortal Kombat II",
+		"Genre": "Fighting",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1993,
+		"Game": "Myst",
+		"Genre": "Adventure",
+		"Original platform(s)": "Mac"
+	},
+	{
+		"Year": 1993,
+		"Game": "NBA Jam",
+		"Genre": "Sports",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1993,
+		"Game": "Phantasy Star IV",
+		"Genre": "Role-playing",
+		"Original platform(s)": "Sega Genesis"
+	},
+	{
+		"Year": 1993,
+		"Game": "Ridge Racer",
+		"Genre": "Racing",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1993,
+		"Game": "Sam & Max Hit the Road",
+		"Genre": "Adventure",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1993,
+		"Game": "Secret of Mana",
+		"Genre": "Action role-playing",
+		"Original platform(s)": "Super NES"
+	},
+	{
+		"Year": 1993,
+		"Game": "Samurai Shodown",
+		"Genre": "Fighting",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1993,
+		"Game": "SimCity 2000",
+		"Genre": "City-building",
+		"Original platform(s)": "Mac"
+	},
+	{
+		"Year": 1993,
+		"Game": "Star Fox",
+		"Genre": "Rail shooter",
+		"Original platform(s)": "Super NES"
+	},
+	{
+		"Year": 1993,
+		"Game": "Syndicate",
+		"Genre": "Real-time tactics",
+		"Original platform(s)": ["Amiga, PC"]
+	},
+	{
+		"Year": 1994,
+		"Game": "Daytona USA",
+		"Genre": "Racing",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1994,
+		"Game": "Donkey Kong Country",
+		"Genre": "Platform",
+		"Original platform(s)": "Super NES"
+	},
+	{
+		"Year": 1994,
+		"Game": "Doom II",
+		"Genre": "First-person shooter",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1994,
+		"Game": "EarthBound",
+		"Genre": "Role-playing",
+		"Original platform(s)": "Super NES"
+	},
+	{
+		"Year": 1994,
+		"Game": "Final Fantasy VI",
+		"Genre": "Role-playing",
+		"Original platform(s)": "Super NES"
+	},
+	{
+		"Year": 1994,
+		"Game": "Sega Rally Championship",
+		"Genre": "Racing",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1994,
+		"Game": "Sensible World of Soccer",
+		"Genre": "Sports",
+		"Original platform(s)": "Amiga"
+	},
+	{
+		"Year": 1994,
+		"Game": "Star Wars: TIE Fighter",
+		"Genre": "Space flight simulator",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1994,
+		"Game": "Super Metroid",
+		"Genre": "Action-adventure",
+		"Original platform(s)": "Super NES"
+	},
+	{
+		"Year": 1994,
+		"Game": "Tempest 2000",
+		"Genre": "Shoot 'em up",
+		"Original platform(s)": "Atari Jaguar"
+	},
+	{
+		"Year": 1994,
+		"Game": "Theme Park",
+		"Genre": "Business simulation",
+		"Original platform(s)": ["Amiga, PC"]
+	},
+	{
+		"Year": 1994,
+		"Game": "Virtua Fighter 2",
+		"Genre": "Fighting",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1994,
+		"Game": "X-COM: UFO Defense",
+		"Genre": "Turn-based strategy",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1995,
+		"Game": "Chrono Trigger",
+		"Genre": "Role-playing",
+		"Original platform(s)": "Super NES"
+	},
+	{
+		"Year": 1995,
+		"Game": "Command & Conquer",
+		"Genre": "Real-time strategy",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1995,
+		"Game": "MechWarrior 2: 31st Century Combat",
+		"Genre": "Vehicle simulation",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1995,
+		"Game": "Warcraft II: Tides of Darkness",
+		"Genre": "Real-time strategy",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1995,
+		"Game": "Wipeout",
+		"Genre": "Racing",
+		"Original platform(s)": ["PC, PlayStation"]
+	},
+	{
+		"Year": 1995,
+		"Game": "Worms",
+		"Genre": "Artillery",
+		"Original platform(s)": "Amiga"
+	},
+	{
+		"Year": 1995,
+		"Game": "Yoshi's Island",
+		"Genre": "Platform",
+		"Original platform(s)": "Super NES"
+	},
+	{
+		"Year": 1996,
+		"Game": "Civilization II",
+		"Genre": "Turn-based strategy",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1996,
+		"Game": "Command & Conquer: Red Alert",
+		"Genre": "Real-time strategy",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1996,
+		"Game": "Duke Nukem 3D",
+		"Genre": "First-person shooter",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1996,
+		"Game": "Mario Kart 64",
+		"Genre": "Kart racing",
+		"Original platform(s)": "Nintendo 64"
+	},
+	{
+		"Year": 1996,
+		"Game": "Nights into Dreams",
+		"Genre": "Action",
+		"Original platform(s)": "Saturn"
+	},
+	{
+		"Year": 1996,
+		"Game": "PaRappa the Rapper",
+		"Genre": "Rhythm",
+		"Original platform(s)": "PlayStation"
+	},
+	{
+		"Year": 1996,
+		"Game": "Pok\u00e9mon Red and Blue",
+		"Genre": "Role-playing",
+		"Original platform(s)": "Game Boy"
+	},
+	{
+		"Year": 1996,
+		"Game": "Quake",
+		"Genre": "First-person shooter",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1996,
+		"Game": "Resident Evil",
+		"Genre": "Survival horror",
+		"Original platform(s)": "PlayStation"
+	},
+	{
+		"Year": 1996,
+		"Game": "Super Mario 64",
+		"Genre": "Platform",
+		"Original platform(s)": "Nintendo 64"
+	},
+	{
+		"Year": 1996,
+		"Game": "Tomb Raider",
+		"Genre": "Action-adventure",
+		"Original platform(s)": ["Saturn, PC, PlayStation"]
+	},
+	{
+		"Year": 1996,
+		"Game": "Wave Race 64",
+		"Genre": "Racing",
+		"Original platform(s)": "Nintendo 64"
+	},
+	{
+		"Year": 1996,
+		"Game": "Wipeout 2097",
+		"Genre": "Racing",
+		"Original platform(s)": "PlayStation"
+	},
+	{
+		"Year": 1997,
+		"Game": "Age of Empires",
+		"Genre": "Real-time strategy",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1997,
+		"Game": "Castlevania: Symphony of the Night",
+		"Genre": "Action role-playing",
+		"Original platform(s)": "PlayStation"
+	},
+	{
+		"Year": 1997,
+		"Game": "Diablo",
+		"Genre": "Action role-playing",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1997,
+		"Game": "Fallout",
+		"Genre": "Role-playing",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1997,
+		"Game": "Final Fantasy Tactics",
+		"Genre": "Tactical role-playing",
+		"Original platform(s)": "PlayStation"
+	},
+	{
+		"Year": 1997,
+		"Game": "Final Fantasy VII",
+		"Genre": "Role-playing",
+		"Original platform(s)": "PlayStation"
+	},
+	{
+		"Year": 1997,
+		"Game": "GoldenEye 007",
+		"Genre": "First-person shooter",
+		"Original platform(s)": "Nintendo 64"
+	},
+	{
+		"Year": 1997,
+		"Game": "Gran Turismo",
+		"Genre": "Racing",
+		"Original platform(s)": "PlayStation"
+	},
+	{
+		"Year": 1997,
+		"Game": "Grand Theft Auto",
+		"Genre": "Action-adventure",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1997,
+		"Game": "Quake II",
+		"Genre": "First-person shooter",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1997,
+		"Game": "Star Fox 64",
+		"Genre": "Rail shooter",
+		"Original platform(s)": "Nintendo 64"
+	},
+	{
+		"Year": 1997,
+		"Game": "Star Wars Jedi Knight: Dark Forces II",
+		"Genre": "First-person shooter",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1997,
+		"Game": "Tekken 3",
+		"Genre": "Fighting",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1997,
+		"Game": "Total Annihilation",
+		"Genre": "Real-time strategy",
+		"Original platform(s)": ["PC, Mac"]
+	},
+	{
+		"Year": 1997,
+		"Game": "Ultima Online",
+		"Genre": "MMORPG",
+		"Original platform(s)": ["PC, Linux"]
+	},
+	{
+		"Year": 1998,
+		"Game": "Baldur's Gate",
+		"Genre": "Role-playing",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1998,
+		"Game": "Crash Bandicoot: Warped",
+		"Genre": "Platform",
+		"Original platform(s)": "PlayStation"
+	},
+	{
+		"Year": 1998,
+		"Game": "Dance Dance Revolution",
+		"Genre": "Rhythm",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1998,
+		"Game": "Fallout 2",
+		"Genre": "Role-playing",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1998,
+		"Game": "Grim Fandango",
+		"Genre": "Adventure",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1998,
+		"Game": "Half-Life",
+		"Genre": "First-person shooter",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1998,
+		"Game": "The Legend of Zelda: Ocarina of Time",
+		"Genre": "Action-adventure",
+		"Original platform(s)": "Nintendo 64"
+	},
+	{
+		"Year": 1998,
+		"Game": "Metal Gear Solid",
+		"Genre": "Stealth",
+		"Original platform(s)": "PlayStation"
+	},
+	{
+		"Year": 1998,
+		"Game": "Panzer Dragoon Saga",
+		"Genre": "Role-playing",
+		"Original platform(s)": "Saturn"
+	},
+	{
+		"Year": 1998,
+		"Game": "Resident Evil 2",
+		"Genre": "Survival horror",
+		"Original platform(s)": "PlayStation"
+	},
+	{
+		"Year": 1998,
+		"Game": "Soulcalibur",
+		"Genre": "Fighting",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 1998,
+		"Game": "StarCraft",
+		"Genre": "Real-time strategy",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1998,
+		"Game": "Suikoden II",
+		"Genre": "Role-playing",
+		"Original platform(s)": "PlayStation"
+	},
+	{
+		"Year": 1998,
+		"Game": "Thief: The Dark Project",
+		"Genre": "Stealth",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1999,
+		"Game": "Age of Empires II",
+		"Genre": "Real-time strategy",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1999,
+		"Game": "EverQuest",
+		"Genre": "MMORPG",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1999,
+		"Game": "Homeworld",
+		"Genre": "Real-time strategy",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1999,
+		"Game": "Planescape: Torment",
+		"Genre": "Role-playing",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1999,
+		"Game": "Pok\u00e9mon Gold and Silver",
+		"Genre": "Role-playing",
+		"Original platform(s)": "Game Boy Color"
+	},
+	{
+		"Year": 1999,
+		"Game": "Quake III: Arena",
+		"Genre": "First-person shooter",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1999,
+		"Game": "Shenmue",
+		"Genre": "Action-adventure",
+		"Original platform(s)": "Dreamcast"
+	},
+	{
+		"Year": 1999,
+		"Game": "Silent Hill",
+		"Genre": "Survival horror",
+		"Original platform(s)": "PlayStation"
+	},
+	{
+		"Year": 1999,
+		"Game": "System Shock 2",
+		"Genre": "Action role-playing",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 1999,
+		"Game": "Unreal Tournament",
+		"Genre": "First-person shooter",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 2000,
+		"Game": "Baldur's Gate II: Shadows of Amn",
+		"Genre": "Role-playing",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 2000,
+		"Game": "Counter-Strike",
+		"Genre": "First-person shooter",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 2000,
+		"Game": "Deus Ex",
+		"Genre": "Action role-playing",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 2000,
+		"Game": "Diablo II",
+		"Genre": "Action role-playing",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 2000,
+		"Game": "Jet Set Radio",
+		"Genre": "Action",
+		"Original platform(s)": "Dreamcast"
+	},
+	{
+		"Year": 2000,
+		"Game": "The Legend of Zelda: Majora's Mask",
+		"Genre": "Action-adventure",
+		"Original platform(s)": "Nintendo 64"
+	},
+	{
+		"Year": 2000,
+		"Game": "Perfect Dark",
+		"Genre": "First-person shooter",
+		"Original platform(s)": "Nintendo 64"
+	},
+	{
+		"Year": 2000,
+		"Game": "Marvel vs. Capcom 2: New Age of Heroes",
+		"Genre": "Fighting",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 2000,
+		"Game": "The Sims",
+		"Genre": "Life simulation",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 2000,
+		"Game": "Thief II: The Metal Age",
+		"Genre": "Stealth",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 2000,
+		"Game": "Tony Hawk's Pro Skater 2",
+		"Genre": "Sports",
+		"Original platform(s)": "PlayStation"
+	},
+	{
+		"Year": 2000,
+		"Game": "Vagrant Story",
+		"Genre": "Action role-playing",
+		"Original platform(s)": "PlayStation"
+	},
+	{
+		"Year": 2001,
+		"Game": "Advance Wars",
+		"Genre": "Turn-based strategy",
+		"Original platform(s)": "Game Boy Advance"
+	},
+	{
+		"Year": 2001,
+		"Game": "Animal Crossing",
+		"Genre": "Life simulation",
+		"Original platform(s)": "GameCube"
+	},
+	{
+		"Year": 2001,
+		"Game": "Devil May Cry",
+		"Genre": "Action-adventure",
+		"Original platform(s)": "PS2"
+	},
+	{
+		"Year": 2001,
+		"Game": "Final Fantasy X",
+		"Genre": "Role-playing",
+		"Original platform(s)": "PS2"
+	},
+	{
+		"Year": 2001,
+		"Game": "Gran Turismo 3: A-Spec",
+		"Genre": "Racing",
+		"Original platform(s)": "PS2"
+	},
+	{
+		"Year": 2001,
+		"Game": "Grand Theft Auto III",
+		"Genre": "Action-adventure",
+		"Original platform(s)": "PS2"
+	},
+	{
+		"Year": 2001,
+		"Game": "Halo: Combat Evolved",
+		"Genre": "First-person shooter",
+		"Original platform(s)": "Xbox"
+	},
+	{
+		"Year": 2001,
+		"Game": "Ico",
+		"Genre": "Action-adventure",
+		"Original platform(s)": "PS2"
+	},
+	{
+		"Year": 2001,
+		"Game": "Ikaruga",
+		"Genre": "Shoot 'em up",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 2001,
+		"Game": "Max Payne",
+		"Genre": "Third-person shooter",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 2001,
+		"Game": "Metal Gear Solid 2: Sons of Liberty",
+		"Genre": "Stealth",
+		"Original platform(s)": "PS2"
+	},
+	{
+		"Year": 2001,
+		"Game": "Phoenix Wright: Ace Attorney",
+		"Genre": "Adventure",
+		"Original platform(s)": "Game Boy Advance"
+	},
+	{
+		"Year": 2001,
+		"Game": "Rez",
+		"Genre": "Rail shooter",
+		"Original platform(s)": ["Dreamcast, PS2"]
+	},
+	{
+		"Year": 2001,
+		"Game": "Silent Hill 2",
+		"Genre": "Survival horror",
+		"Original platform(s)": "PS2"
+	},
+	{
+		"Year": 2001,
+		"Game": "Super Smash Bros. Melee",
+		"Genre": "Fighting",
+		"Original platform(s)": "GameCube"
+	},
+	{
+		"Year": 2001,
+		"Game": "Tony Hawk's Pro Skater 3",
+		"Genre": "Sports",
+		"Original platform(s)": ["PlayStation, PS2"]
+	},
+	{
+		"Year": 2002,
+		"Game": "Battlefield 1942",
+		"Genre": "First-person shooter",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 2002,
+		"Game": "The Elder Scrolls III: Morrowind",
+		"Genre": "Action role-playing",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 2002,
+		"Game": "Eternal Darkness: Sanity's Requiem",
+		"Genre": "Survival horror",
+		"Original platform(s)": "GameCube"
+	},
+	{
+		"Year": 2002,
+		"Game": "Grand Theft Auto: Vice City",
+		"Genre": "Action-adventure",
+		"Original platform(s)": "PS2"
+	},
+	{
+		"Year": 2002,
+		"Game": "Kingdom Hearts",
+		"Genre": "Action role-playing",
+		"Original platform(s)": "PS2"
+	},
+	{
+		"Year": 2002,
+		"Game": "The Legend of Zelda: The Wind Waker",
+		"Genre": "Action-adventure",
+		"Original platform(s)": "GameCube"
+	},
+	{
+		"Year": 2002,
+		"Game": "Metroid Prime",
+		"Genre": "Action-adventure",
+		"Original platform(s)": "GameCube"
+	},
+	{
+		"Year": 2002,
+		"Game": "Soulcalibur II",
+		"Genre": "Fighting",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 2002,
+		"Game": "Tom Clancy's Splinter Cell",
+		"Genre": "Stealth",
+		"Original platform(s)": "Xbox"
+	},
+	{
+		"Year": 2002,
+		"Game": "Warcraft III: Reign of Chaos",
+		"Genre": "Real-time strategy",
+		"Original platform(s)": ["PC, Mac"]
+	},
+	{
+		"Year": 2003,
+		"Game": "Beyond Good & Evil",
+		"Genre": "Action-adventure",
+		"Original platform(s)": "PS2"
+	},
+	{
+		"Year": 2003,
+		"Game": "F-Zero GX",
+		"Genre": "Racing",
+		"Original platform(s)": "GameCube"
+	},
+	{
+		"Year": 2003,
+		"Game": "Max Payne 2: The Fall of Max Payne",
+		"Genre": "Third-person shooter",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 2003,
+		"Game": "Prince of Persia: The Sands of Time",
+		"Genre": "Action-adventure",
+		"Original platform(s)": ["GameCube, PS2, Xbox"]
+	},
+	{
+		"Year": 2003,
+		"Game": "Star Wars: Knights of the Old Republic",
+		"Genre": "Role-playing",
+		"Original platform(s)": "Xbox"
+	},
+	{
+		"Year": 2003,
+		"Game": "WarioWare, Inc.: Mega Microgames!",
+		"Genre": "Action",
+		"Original platform(s)": "Game Boy Advance"
+	},
+	{
+		"Year": 2004,
+		"Game": "Burnout 3: Takedown",
+		"Genre": "Racing",
+		"Original platform(s)": ["PS2, Xbox"]
+	},
+	{
+		"Year": 2004,
+		"Game": "The Chronicles of Riddick: Escape from Butcher Bay",
+		"Genre": "Stealth",
+		"Original platform(s)": "Xbox"
+	},
+	{
+		"Year": 2004,
+		"Game": "Dragon Quest VIII",
+		"Genre": "Role-playing",
+		"Original platform(s)": "PS2"
+	},
+	{
+		"Year": 2004,
+		"Game": "Gran Turismo 4",
+		"Genre": "Racing",
+		"Original platform(s)": "PS2"
+	},
+	{
+		"Year": 2004,
+		"Game": "Grand Theft Auto: San Andreas",
+		"Genre": "Action-adventure",
+		"Original platform(s)": "PS2"
+	},
+	{
+		"Year": 2004,
+		"Game": "Half-Life 2",
+		"Genre": "First-person shooter",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 2004,
+		"Game": "Halo 2",
+		"Genre": "First-person shooter",
+		"Original platform(s)": "Xbox"
+	},
+	{
+		"Year": 2004,
+		"Game": "Katamari Damacy",
+		"Genre": "Action",
+		"Original platform(s)": "PS2"
+	},
+	{
+		"Year": 2004,
+		"Game": "Metal Gear Solid 3: Snake Eater",
+		"Genre": "Stealth",
+		"Original platform(s)": "PS2"
+	},
+	{
+		"Year": 2004,
+		"Game": "Paper Mario: The Thousand-Year Door",
+		"Genre": "Role-playing",
+		"Original platform(s)": "GameCube"
+	},
+	{
+		"Year": 2004,
+		"Game": "Rome: Total War",
+		"Genre": "Strategy",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 2004,
+		"Game": "The Sims 2",
+		"Genre": "Life simulation",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 2004,
+		"Game": "World of Warcraft",
+		"Genre": "MMORPG",
+		"Original platform(s)": ["PC, Mac"]
+	},
+	{
+		"Year": 2005,
+		"Game": "Call of Duty 2",
+		"Genre": "First-person shooter",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 2005,
+		"Game": "Civilization IV",
+		"Genre": "Turn-based strategy",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 2005,
+		"Game": "Devil May Cry 3: Dante's Awakening",
+		"Genre": "Action-adventure",
+		"Original platform(s)": "PS2"
+	},
+	{
+		"Year": 2005,
+		"Game": "God of War",
+		"Genre": "Action-adventure",
+		"Original platform(s)": "PS2"
+	},
+	{
+		"Year": 2005,
+		"Game": "Guitar Hero",
+		"Genre": "Rhythm",
+		"Original platform(s)": "PS2"
+	},
+	{
+		"Year": 2005,
+		"Game": "Kingdom Hearts II",
+		"Genre": "Action role-playing",
+		"Original platform(s)": "PS2"
+	},
+	{
+		"Year": 2005,
+		"Game": "Psychonauts",
+		"Genre": "Platform",
+		"Original platform(s)": ["PC, Xbox"]
+	},
+	{
+		"Year": 2005,
+		"Game": "Resident Evil 4",
+		"Genre": "Survival horror",
+		"Original platform(s)": "GameCube"
+	},
+	{
+		"Year": 2005,
+		"Game": "Shadow of the Colossus",
+		"Genre": "Action-adventure",
+		"Original platform(s)": "PS2"
+	},
+	{
+		"Year": 2005,
+		"Game": "Tom Clancy's Splinter Cell: Chaos Theory",
+		"Genre": "Stealth",
+		"Original platform(s)": ["GameCube, PC, PS2, Xbox"]
+	},
+	{
+		"Year": 2006,
+		"Game": "Company of Heroes",
+		"Genre": "Real-time strategy",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 2006,
+		"Game": "The Elder Scrolls IV: Oblivion",
+		"Genre": "Action role-playing",
+		"Original platform(s)": ["PC, Xbox 360"]
+	},
+	{
+		"Year": 2006,
+		"Game": "Gears of War",
+		"Genre": "Third-person shooter",
+		"Original platform(s)": "Xbox 360"
+	},
+	{
+		"Year": 2006,
+		"Game": "Hitman: Blood Money",
+		"Genre": "Stealth",
+		"Original platform(s)": ["PC, PS2, Xbox, Xbox 360"]
+	},
+	{
+		"Year": 2006,
+		"Game": "The Legend of Zelda: Twilight Princess",
+		"Genre": "Action-adventure",
+		"Original platform(s)": ["GameCube, Wii"]
+	},
+	{
+		"Year": 2006,
+		"Game": "\u014ckami",
+		"Genre": "Action-adventure",
+		"Original platform(s)": "PS2"
+	},
+	{
+		"Year": 2006,
+		"Game": "Wii Sports",
+		"Genre": "Sports",
+		"Original platform(s)": "Wii"
+	},
+	{
+		"Year": 2007,
+		"Game": "BioShock",
+		"Genre": "First-person shooter",
+		"Original platform(s)": ["PC, Xbox 360"]
+	},
+	{
+		"Year": 2007,
+		"Game": "Call of Duty 4: Modern Warfare",
+		"Genre": "First-person shooter",
+		"Original platform(s)": ["PC, PS3, Xbox 360"]
+	},
+	{
+		"Year": 2007,
+		"Game": "God of War II",
+		"Genre": "Action-adventure",
+		"Original platform(s)": "PS2"
+	},
+	{
+		"Year": 2007,
+		"Game": "Halo 3",
+		"Genre": "First-person shooter",
+		"Original platform(s)": "Xbox 360"
+	},
+	{
+		"Year": 2007,
+		"Game": "Mass Effect",
+		"Genre": "Action role-playing",
+		"Original platform(s)": "Xbox 360"
+	},
+	{
+		"Year": 2007,
+		"Game": "Peggle",
+		"Genre": "Puzzle",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 2007,
+		"Game": "Portal",
+		"Genre": "Puzzle-platform",
+		"Original platform(s)": ["PC, Xbox 360"]
+	},
+	{
+		"Year": 2007,
+		"Game": "Rock Band",
+		"Genre": "Rhythm",
+		"Original platform(s)": ["PS3, Xbox 360"]
+	},
+	{
+		"Year": 2007,
+		"Game": "Super Mario Galaxy",
+		"Genre": "Platform",
+		"Original platform(s)": "Wii"
+	},
+	{
+		"Year": 2007,
+		"Game": "Team Fortress 2",
+		"Genre": "First-person shooter",
+		"Original platform(s)": ["PC, Xbox 360"]
+	},
+	{
+		"Year": 2007,
+		"Game": "The World Ends with You",
+		"Genre": "Action role-playing",
+		"Original platform(s)": "Nintendo DS"
+	},
+	{
+		"Year": 2008,
+		"Game": "Braid",
+		"Genre": "Puzzle-platform",
+		"Original platform(s)": "Xbox 360"
+	},
+	{
+		"Year": 2008,
+		"Game": "Burnout Paradise",
+		"Genre": "Racing",
+		"Original platform(s)": ["PC, PS3, Xbox 360"]
+	},
+	{
+		"Year": 2008,
+		"Game": "Dead Space",
+		"Genre": "Survival horror",
+		"Original platform(s)": ["PC, PS3, Xbox 360"]
+	},
+	{
+		"Year": 2008,
+		"Game": "Fable II",
+		"Genre": "Action role-playing",
+		"Original platform(s)": "Xbox 360"
+	},
+	{
+		"Year": 2008,
+		"Game": "Fallout 3",
+		"Genre": "Action role-playing",
+		"Original platform(s)": ["PC, PS3, Xbox 360"]
+	},
+	{
+		"Year": 2008,
+		"Game": "Gears of War 2",
+		"Genre": "Third-person shooter",
+		"Original platform(s)": "Xbox 360"
+	},
+	{
+		"Year": 2008,
+		"Game": "Grand Theft Auto IV",
+		"Genre": "Action-adventure",
+		"Original platform(s)": ["PS3, Xbox 360"]
+	},
+	{
+		"Year": 2008,
+		"Game": "Left 4 Dead",
+		"Genre": "First-person shooter",
+		"Original platform(s)": ["PC, Xbox 360"]
+	},
+	{
+		"Year": 2008,
+		"Game": "LittleBigPlanet",
+		"Genre": "Platform",
+		"Original platform(s)": "PS3"
+	},
+	{
+		"Year": 2008,
+		"Game": "Persona 4",
+		"Genre": "Role-playing",
+		"Original platform(s)": "PS2"
+	},
+	{
+		"Year": 2008,
+		"Game": "Rock Band 2",
+		"Genre": "Rhythm",
+		"Original platform(s)": "Xbox 360"
+	},
+	{
+		"Year": 2008,
+		"Game": "Spelunky",
+		"Genre": "Platform",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 2008,
+		"Game": "Street Fighter IV",
+		"Genre": "Fighting",
+		"Original platform(s)": "Arcade"
+	},
+	{
+		"Year": 2008,
+		"Game": "Super Smash Bros. Brawl",
+		"Genre": "Fighting",
+		"Original platform(s)": "Wii"
+	},
+	{
+		"Year": 2008,
+		"Game": "Valkyria Chronicles",
+		"Genre": "Tactical role-playing",
+		"Original platform(s)": "PS3"
+	},
+	{
+		"Year": 2009,
+		"Game": "Angry Birds",
+		"Genre": "Puzzle",
+		"Original platform(s)": ["Maemo, iOS"]
+	},
+	{
+		"Year": 2009,
+		"Game": "Assassin's Creed II",
+		"Genre": "Action-adventure",
+		"Original platform(s)": ["PS3, Xbox 360"]
+	},
+	{
+		"Year": 2009,
+		"Game": "Batman: Arkham Asylum",
+		"Genre": "Action-adventure",
+		"Original platform(s)": ["PS3, Xbox 360"]
+	},
+	{
+		"Year": 2009,
+		"Game": "Bayonetta",
+		"Genre": "Action-adventure",
+		"Original platform(s)": ["PS3, Xbox 360"]
+	},
+	{
+		"Year": 2009,
+		"Game": "Borderlands",
+		"Genre": "Action role-playing",
+		"Original platform(s)": ["PC, PS3, Xbox 360"]
+	},
+	{
+		"Year": 2009,
+		"Game": "Demon's Souls",
+		"Genre": "Action role-playing",
+		"Original platform(s)": "PS3"
+	},
+	{
+		"Year": 2009,
+		"Game": "Dragon Age: Origins",
+		"Genre": "Role-playing",
+		"Original platform(s)": ["PC, PS3, Xbox 360"]
+	},
+	{
+		"Year": 2009,
+		"Game": "League of Legends",
+		"Genre": "MOBA",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 2009,
+		"Game": "Left 4 Dead 2",
+		"Genre": "First-person shooter",
+		"Original platform(s)": ["PC, Xbox 360"]
+	},
+	{
+		"Year": 2009,
+		"Game": "Plants vs. Zombies",
+		"Genre": "Tower defense",
+		"Original platform(s)": ["PC, Mac"]
+	},
+	{
+		"Year": 2009,
+		"Game": "The Sims 3",
+		"Genre": "Life simulation",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 2009,
+		"Game": "Uncharted 2: Among Thieves",
+		"Genre": "Action-adventure",
+		"Original platform(s)": "PS3"
+	},
+	{
+		"Year": 2010,
+		"Game": "Assassin's Creed: Brotherhood",
+		"Genre": "Action-adventure",
+		"Original platform(s)": ["PS3, Xbox 360"]
+	},
+	{
+		"Year": 2010,
+		"Game": "Civilization V",
+		"Genre": "Turn-based strategy",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 2010,
+		"Game": "Fallout: New Vegas",
+		"Genre": "Action role-playing",
+		"Original platform(s)": ["PC, PS3, Xbox 360"]
+	},
+	{
+		"Year": 2010,
+		"Game": "God of War III",
+		"Genre": "Action-adventure",
+		"Original platform(s)": "PS3"
+	},
+	{
+		"Year": 2010,
+		"Game": "Heavy Rain",
+		"Genre": "Adventure",
+		"Original platform(s)": "PS3"
+	},
+	{
+		"Year": 2010,
+		"Game": "Limbo",
+		"Genre": "Puzzle-platform",
+		"Original platform(s)": "Xbox 360"
+	},
+	{
+		"Year": 2010,
+		"Game": "Mass Effect 2",
+		"Genre": "Action role-playing",
+		"Original platform(s)": ["PC, Xbox 360"]
+	},
+	{
+		"Year": 2010,
+		"Game": "Red Dead Redemption",
+		"Genre": "Action-adventure",
+		"Original platform(s)": ["PS3, Xbox 360"]
+	},
+	{
+		"Year": 2010,
+		"Game": "Rock Band 3",
+		"Genre": "Rhythm",
+		"Original platform(s)": ["Nintendo DS, PS3, Xbox 360, Wii"]
+	},
+	{
+		"Year": 2010,
+		"Game": "StarCraft II: Wings of Liberty",
+		"Genre": "Real-time strategy",
+		"Original platform(s)": ["PC, Mac"]
+	},
+	{
+		"Year": 2010,
+		"Game": "Super Mario Galaxy 2",
+		"Genre": "Platform",
+		"Original platform(s)": "Wii"
+	},
+	{
+		"Year": 2010,
+		"Game": "Super Meat Boy",
+		"Genre": "Platform",
+		"Original platform(s)": "Xbox 360"
+	},
+	{
+		"Year": 2010,
+		"Game": "Xenoblade Chronicles",
+		"Genre": "Action role-playing",
+		"Original platform(s)": "Wii"
+	},
+	{
+		"Year": 2011,
+		"Game": "Batman: Arkham City",
+		"Genre": "Action-adventure",
+		"Original platform(s)": ["PS3, Xbox 360"]
+	},
+	{
+		"Year": 2011,
+		"Game": "Dark Souls",
+		"Genre": "Action role-playing",
+		"Original platform(s)": ["PS3, Xbox 360"]
+	},
+	{
+		"Year": 2011,
+		"Game": "The Elder Scrolls V: Skyrim",
+		"Genre": "Action role-playing",
+		"Original platform(s)": ["PC, PS3, Xbox 360"]
+	},
+	{
+		"Year": 2011,
+		"Game": "Minecraft",
+		"Genre": "Sandbox",
+		"Original platform(s)": ["PC, Mac, Linux"]
+	},
+	{
+		"Year": 2011,
+		"Game": "Portal 2",
+		"Genre": "Puzzle-platform",
+		"Original platform(s)": ["PC, PS3, Xbox 360"]
+	},
+	{
+		"Year": 2012,
+		"Game": "Borderlands 2",
+		"Genre": "Action role-playing",
+		"Original platform(s)": ["PC, PS3, Xbox 360"]
+	},
+	{
+		"Year": 2012,
+		"Game": "Dishonored",
+		"Genre": "Stealth",
+		"Original platform(s)": ["PC, PS3, Xbox 360"]
+	},
+	{
+		"Year": 2012,
+		"Game": "Far Cry 3",
+		"Genre": "First-person shooter",
+		"Original platform(s)": ["PC, PS3, Xbox 360"]
+	},
+	{
+		"Year": 2012,
+		"Game": "Fire Emblem Awakening",
+		"Genre": "Tactical role-playing",
+		"Original platform(s)": "Nintendo 3DS"
+	},
+	{
+		"Year": 2012,
+		"Game": "Hotline Miami",
+		"Genre": "Top-down shooter",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 2012,
+		"Game": "Journey",
+		"Genre": "Adventure",
+		"Original platform(s)": "PS3"
+	},
+	{
+		"Year": 2012,
+		"Game": "The Walking Dead",
+		"Genre": "Adventure",
+		"Original platform(s)": ["PC, PS3, Xbox 360"]
+	},
+	{
+		"Year": 2012,
+		"Game": "XCOM: Enemy Unknown",
+		"Genre": "Turn-based strategy",
+		"Original platform(s)": ["PC, PS3, Xbox 360"]
+	},
+	{
+		"Year": 2013,
+		"Game": "BioShock Infinite",
+		"Genre": "First-person shooter",
+		"Original platform(s)": ["PC, PS3, Xbox 360"]
+	},
+	{
+		"Year": 2013,
+		"Game": "Dota 2",
+		"Genre": "MOBA",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 2013,
+		"Game": "Grand Theft Auto V",
+		"Genre": "Action-adventure",
+		"Original platform(s)": ["PS3, Xbox 360"]
+	},
+	{
+		"Year": 2013,
+		"Game": "The Last of Us",
+		"Genre": "Action-adventure",
+		"Original platform(s)": "PS3"
+	},
+	{
+		"Year": 2013,
+		"Game": "Papers, Please",
+		"Genre": "Puzzle",
+		"Original platform(s)": ["PC, Mac"]
+	},
+	{
+		"Year": 2014,
+		"Game": "Alien: Isolation",
+		"Genre": "Survival horror",
+		"Original platform(s)": ["PC, PS3, PS4, Xbox 360, Xbox One"]
+	},
+	{
+		"Year": 2014,
+		"Game": "Destiny",
+		"Genre": "First-person shooter",
+		"Original platform(s)": ["PS3, PS4, Xbox 360, Xbox One"]
+	},
+	{
+		"Year": 2014,
+		"Game": "Hearthstone",
+		"Genre": "Digital collectible card",
+		"Original platform(s)": ["PC, Mac"]
+	},
+	{
+		"Year": 2014,
+		"Game": "Mario Kart 8",
+		"Genre": "Kart racing",
+		"Original platform(s)": "Wii U"
+	},
+	{
+		"Year": 2014,
+		"Game": "Shovel Knight",
+		"Genre": "Platform",
+		"Original platform(s)": ["Nintendo 3DS, PC, Wii U"]
+	},
+	{
+		"Year": 2015,
+		"Game": "Bloodborne",
+		"Genre": "Action role-playing",
+		"Original platform(s)": "PS4"
+	},
+	{
+		"Year": 2015,
+		"Game": "Rocket League",
+		"Genre": "Sports",
+		"Original platform(s)": ["PC, PS4"]
+	},
+	{
+		"Year": 2015,
+		"Game": "Undertale",
+		"Genre": "Role-playing",
+		"Original platform(s)": ["PC, Mac"]
+	},
+	{
+		"Year": 2015,
+		"Game": "The Witcher 3: Wild Hunt",
+		"Genre": "Action role-playing",
+		"Original platform(s)": ["PC, PS4, Xbox One"]
+	},
+	{
+		"Year": 2016,
+		"Game": "Dishonored 2",
+		"Genre": "Stealth",
+		"Original platform(s)": ["PC, PS4, Xbox One"]
+	},
+	{
+		"Year": 2016,
+		"Game": "Inside",
+		"Genre": "Puzzle-platform",
+		"Original platform(s)": ["Xbox One, PC"]
+	},
+	{
+		"Year": 2016,
+		"Game": "Overwatch",
+		"Genre": "First-person shooter",
+		"Original platform(s)": ["PC, PS4, Xbox One"]
+	},
+	{
+		"Year": 2016,
+		"Game": "Persona 5",
+		"Genre": "Role-playing",
+		"Original platform(s)": ["PS3, PS4"]
+	},
+	{
+		"Year": 2016,
+		"Game": "Stardew Valley",
+		"Genre": "Farm life simulation",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 2016,
+		"Game": "Uncharted 4: A Thief's End",
+		"Genre": "Action-adventure",
+		"Original platform(s)": "PS4"
+	},
+	{
+		"Year": 2017,
+		"Game": "Fortnite",
+		"Genre": "Third-person shooter",
+		"Original platform(s)": ["PC, Mac, PS4, Xbox One"]
+	},
+	{
+		"Year": 2017,
+		"Game": "The Legend of Zelda: Breath of the Wild",
+		"Genre": "Action-adventure",
+		"Original platform(s)": ["Nintendo Switch, Wii U"]
+	},
+	{
+		"Year": 2017,
+		"Game": "Super Mario Odyssey",
+		"Genre": "Platform",
+		"Original platform(s)": "Nintendo Switch"
+	},
+	{
+		"Year": 2018,
+		"Game": "God of War",
+		"Genre": "Action-adventure",
+		"Original platform(s)": "PS4"
+	},
+	{
+		"Year": 2018,
+		"Game": "Red Dead Redemption 2",
+		"Genre": "Action-adventure",
+		"Original platform(s)": ["PS4, Xbox One"]
+	},
+	{
+		"Year": 2018,
+		"Game": "Super Smash Bros. Ultimate",
+		"Genre": "Fighting",
+		"Original platform(s)": "Nintendo Switch"
+	},
+	{
+		"Year": 2019,
+		"Game": "Disco Elysium",
+		"Genre": "Role-playing",
+		"Original platform(s)": "PC"
+	},
+	{
+		"Year": 2020,
+		"Game": "Hades",
+		"Genre": "Roguelike",
+		"Original platform(s)": ["PC, Mac, Nintendo Switch"]
+	},
+	{
+		"Year": 2022,
+		"Game": "Elden Ring",
+		"Genre": "Action role-playing",
+		"Original platform(s)": ["PC, PS4, PS5, Xbox One, Xbox Series X/S"]
+	}
+]

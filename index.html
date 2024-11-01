@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Filter</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .container { max-width: 600px; margin: 20px auto; padding: 20px; border: 1px solid #ccc; border-radius: 8px; }
+        label { display: block; margin-top: 10px; }
+        select, input[type="number"] { width: 100%; margin-top: 5px; padding: 8px; }
+        button { margin-top: 15px; padding: 10px 15px; cursor: pointer; }
+        ul { list-style: none; padding-left: 0; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2>Game Filter</h2>
+    <label>Year Range</label>
+    <input type="number" id="year-start" placeholder="Start Year (e.g., 1971)" min="1971" max="2022">
+    <input type="number" id="year-end" placeholder="End Year (e.g., 2022)" min="1971" max="2022">
+    
+    <label>Genres</label>
+    <select id="genre-select" multiple>
+        <option>Action</option>
+        <option>Action role-playing</option>
+        <option>Action-adventure</option>
+        <option>Adventure</option>
+        <option>Artillery</option>
+        <option>Beat 'em up</option>
+        <option>Block breaker</option>
+        <option>Business simulation</option>
+        <option>City-building</option>
+        <option>Digital collectible card</option>
+        <option>Farm life simulation</option>
+        <option>Fighting</option>
+        <option>First-person shooter</option>
+        <option>God game</option>
+        <option>Hack and slash</option>
+        <option>Kart racing</option>
+        <option>Life simulation</option>
+        <option>Maze</option>
+        <option>MMORPG</option>
+        <option>MOBA</option>
+        <option>Platform</option>
+        <option>Puzzle</option>
+        <option>Puzzle-platform</option>
+        <option>Racing</option>
+        <option>Rail shooter</option>
+        <option>Real-time strategy</option>
+        <option>Real-time tactics</option>
+        <option>Rhythm</option>
+        <option>Roguelike</option>
+        <option>Role-playing</option>
+        <option>Run and gun</option>
+        <option>Sandbox</option>
+        <option>Shoot 'em up</option>
+        <option>Space flight simulator</option>
+        <option>Sports</option>
+        <option>Stealth</option>
+        <option>Strategy</option>
+        <option>Survival horror</option>
+        <option>Tactical role-playing</option>
+        <option>Third-person shooter</option>
+        <option>Top-down shooter</option>
+        <option>Tower defense</option>
+        <option>Turn-based strategy</option>
+        <option>Vehicle simulation</option>
+    </select>
+    
+    <label>Platforms</label>
+    <select id="platform-select" multiple>
+        <option>Amiga</option>
+        <option>Apple II</option>
+        <option>Arcade</option>
+        <option>Atari 2600</option>
+        <option>Atari 8-bit</option>
+        <option>Atari Jaguar</option>
+        <option>Atari ST</option>
+        <option>BBC Micro</option>
+        <option>Commodore 64</option>
+        <option>Dreamcast</option>
+        <option>Electronika 60</option>
+        <option>Game Boy</option>
+        <option>Game Boy Advance</option>
+        <option>Game Boy Color</option>
+        <option>GameCube</option>
+        <option>HP 2100</option>
+        <option>iOS</option>
+        <option>Linux</option>
+        <option>Mac</option>
+        <option>Maemo</option>
+        <option>NES</option>
+        <option>Nintendo 3DS</option>
+        <option>Nintendo 64</option>
+        <option>Nintendo DS</option>
+        <option>Nintendo Switch</option>
+        <option>PC</option>
+        <option>PDP-10</option>
+        <option>PlayStation</option>
+        <option>PS2</option>
+        <option>PS3</option>
+        <option>PS4</option>
+        <option>PS5</option>
+        <option>Saturn</option>
+        <option>Sega Genesis</option>
+        <option>Super NES</option>
+        <option>Wii</option>
+        <option>Wii U</option>
+        <option>Xbox</option>
+        <option>Xbox 360</option>
+        <option>Xbox One</option>
+        <option>Xbox Series X/S</option>
+    </select>
+    
+    <button onclick="filterGames()">Filter Games</button>
+    
+    <h3>Results:</h3>
+    <ul id="results"></ul>
+</div>
+
+<script>
+    let gamesData = {};
+
+    // Load JSON data (assumes best_games_list.json is in the same directory)
+    async function loadData() {
+        const response = await fetch('best_games_list.json');
+        const data = await response.json();
+        gamesData = data.Sheet1;
+
+        populateGenres();
+        populatePlatforms();
+    }
+
+    // Populate genres dynamically
+    function populateGenres() {
+        const genres = [...new Set(gamesData.map(game => game.Genre))];
+        const genreSelect = document.getElementById('genre-select');
+        genres.forEach(genre => {
+            const option = document.createElement('option');
+            option.value = genre;
+            option.textContent = genre;
+            genreSelect.appendChild(option);
+        });
+    }
+
+    // Populate platforms dynamically
+    function populatePlatforms() {
+        const platforms = [...new Set(gamesData.map(game => game["Original platform(s)"]).flat())];
+        const platformSelect = document.getElementById('platform-select');
+        platforms.forEach(platform => {
+            const option = document.createElement('option');
+            option.value = platform;
+            option.textContent = platform;
+            platformSelect.appendChild(option);
+        });
+    }
+
+    // Filter and display games
+    function filterGames() {
+        const yearStart = parseInt(document.getElementById('year-start').value) || 1971;
+        const yearEnd = parseInt(document.getElementById('year-end').value) || 2022;
+        const selectedGenres = Array.from(document.getElementById('genre-select').selectedOptions).map(option => option.value);
+        const selectedPlatforms = Array.from(document.getElementById('platform-select').selectedOptions).map(option => option.value);
+
+        let filteredGames = gamesData.filter(game => {
+            const matchesYear = game.Year >= yearStart && game.Year <= yearEnd;
+            const matchesGenre = selectedGenres.length === 0 || selectedGenres.includes(game.Genre);
+            const matchesPlatform = selectedPlatforms.length === 0 || selectedPlatforms.includes(game["Original platform(s)"]);
+            return matchesYear && matchesGenre && matchesPlatform;
+        });
+
+        displayGames(shuffleArray(filteredGames).slice(0, 5));
+    }
+
+    // Display up to 5 games
+    function displayGames(games) {
+        const results = document.getElementById('results');
+        results.innerHTML = '';
+        games.forEach(game => {
+            const li = document.createElement('li');
+            li.textContent = `${game.Game} (${game.Year}) - ${game.Genre}`;
+            results.appendChild(li);
+        });
+    }
+
+    // Utility function to shuffle an array
+    function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+    }
+
+    // Initialize data
+    loadData();
+</script>
+</body>
+</html>
