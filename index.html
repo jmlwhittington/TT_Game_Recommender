@@ -125,35 +125,7 @@
     // Load JSON data (assumes best_games_list.json is in the same directory)
     async function loadData() {
         const response = await fetch('best_games_list.json');
-        const data = await response.json();
-        gamesData = data.Sheet1;
-
-        populateGenres();
-        populatePlatforms();
-    }
-
-    // Populate genres dynamically
-    function populateGenres() {
-        const genres = [...new Set(gamesData.map(game => game.Genre))];
-        const genreSelect = document.getElementById('genre-select');
-        genres.forEach(genre => {
-            const option = document.createElement('option');
-            option.value = genre;
-            option.textContent = genre;
-            genreSelect.appendChild(option);
-        });
-    }
-
-    // Populate platforms dynamically
-    function populatePlatforms() {
-        const platforms = [...new Set(gamesData.map(game => game["Original platform(s)"]).flat())];
-        const platformSelect = document.getElementById('platform-select');
-        platforms.forEach(platform => {
-            const option = document.createElement('option');
-            option.value = platform;
-            option.textContent = platform;
-            platformSelect.appendChild(option);
-        });
+        gamesData= await response.json();
     }
 
     // Filter and display games
