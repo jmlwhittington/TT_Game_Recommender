@@ -145,23 +145,16 @@
         displayGames(shuffleArray(filteredGames).slice(0, 5));
     }
 
-    // Display up to 5 games or show an error if no games match
+    // Display up to 5 games
     function displayGames(games) {
         const results = document.getElementById('results');
-        results.innerHTML = '';  // Clear previous results
-
-        if (games.length === 0) {
-            const errorMessage = document.createElement('li');
-            errorMessage.textContent = "No games found. Try adjusting your search criteria.";
-            errorMessage.style.color = 'red';  // Style the error message in red
-            results.appendChild(errorMessage);
-        } else {
-            games.forEach(game => {
-                const li = document.createElement('li');
-                li.textContent = `${game.Game} (${game.Year}) - ${game.Genre}`;
-                results.appendChild(li);
-            });
-        }
+        results.innerHTML = '';
+        games.forEach(game => {
+            const li = document.createElement('li');
+            li.textContent = `${game.Game} (${game.Year}) - ${game.Genre}`;
+            results.appendChild(li);
+        });
+    }
 
     // Utility function to shuffle an array
     function shuffleArray(array) {
