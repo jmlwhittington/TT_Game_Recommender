@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game Filter</title>
+    <title>Recommender for Best Video Games</title>
     <style>
         body { font-family: Arial, sans-serif; }
         .container { max-width: 600px; margin: 20px auto; padding: 20px; border: 1px solid #ccc; border-radius: 8px; }
@@ -15,10 +15,10 @@
 </head>
 <body>
 <div class="container">
-    <h2>Game Filter</h2>
+    <h2>Please specify your parameters below:</h2>
     <label>Year Range</label>
-    <input type="number" id="year-start" placeholder="Start Year (e.g., 1971)" min="1971" max="2022">
-    <input type="number" id="year-end" placeholder="End Year (e.g., 2022)" min="1971" max="2022">
+    <input type="number" id="year-start" placeholder="Start Year (min. 1971)" min="1971" max="2022">
+    <input type="number" id="year-end" placeholder="End Year (max. 2022)" min="1971" max="2022">
     
     <label>Genres</label>
     <select id="genre-select" multiple>
@@ -113,7 +113,7 @@
         <option>Xbox Series X/S</option>
     </select>
     
-    <button onclick="filterGames()">Filter Games</button>
+    <button onclick="filterGames()">Recommend Games</button>
     
     <h3>Results:</h3>
     <ul id="results"></ul>
@@ -125,7 +125,7 @@
     // Load JSON data (assumes best_games_list.json is in the same directory)
     async function loadData() {
         const response = await fetch('best_games_list.json');
-        gamesData= await response.json();
+        gamesData = await response.json();
     }
 
     // Filter and display games
@@ -145,16 +145,23 @@
         displayGames(shuffleArray(filteredGames).slice(0, 5));
     }
 
-    // Display up to 5 games
+    // Display up to 5 games or show an error if no games match
     function displayGames(games) {
         const results = document.getElementById('results');
-        results.innerHTML = '';
-        games.forEach(game => {
-            const li = document.createElement('li');
-            li.textContent = `${game.Game} (${game.Year}) - ${game.Genre}`;
-            results.appendChild(li);
-        });
-    }
+        results.innerHTML = '';  // Clear previous results
+
+        if (games.length === 0) {
+            const errorMessage = document.createElement('li');
+            errorMessage.textContent = "No games found. Try adjusting your search criteria.";
+            errorMessage.style.color = 'red';  // Style the error message in red
+            results.appendChild(errorMessage);
+        } else {
+            games.forEach(game => {
+                const li = document.createElement('li');
+                li.textContent = `${game.Game} (${game.Year}) - ${game.Genre}`;
+                results.appendChild(li);
+            });
+        }
 
     // Utility function to shuffle an array
     function shuffleArray(array) {
