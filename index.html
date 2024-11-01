@@ -22,95 +22,12 @@
     
     <label>Genres</label>
     <select id="genre-select" multiple>
-        <option>Action</option>
-        <option>Action role-playing</option>
-        <option>Action-adventure</option>
-        <option>Adventure</option>
-        <option>Artillery</option>
-        <option>Beat 'em up</option>
-        <option>Block breaker</option>
-        <option>Business simulation</option>
-        <option>City-building</option>
-        <option>Digital collectible card</option>
-        <option>Farm life simulation</option>
-        <option>Fighting</option>
-        <option>First-person shooter</option>
-        <option>God game</option>
-        <option>Hack and slash</option>
-        <option>Kart racing</option>
-        <option>Life simulation</option>
-        <option>Maze</option>
-        <option>MMORPG</option>
-        <option>MOBA</option>
-        <option>Platform</option>
-        <option>Puzzle</option>
-        <option>Puzzle-platform</option>
-        <option>Racing</option>
-        <option>Rail shooter</option>
-        <option>Real-time strategy</option>
-        <option>Real-time tactics</option>
-        <option>Rhythm</option>
-        <option>Roguelike</option>
-        <option>Role-playing</option>
-        <option>Run and gun</option>
-        <option>Sandbox</option>
-        <option>Shoot 'em up</option>
-        <option>Space flight simulator</option>
-        <option>Sports</option>
-        <option>Stealth</option>
-        <option>Strategy</option>
-        <option>Survival horror</option>
-        <option>Tactical role-playing</option>
-        <option>Third-person shooter</option>
-        <option>Top-down shooter</option>
-        <option>Tower defense</option>
-        <option>Turn-based strategy</option>
-        <option>Vehicle simulation</option>
+        <!-- Genre options will be dynamically populated -->
     </select>
     
     <label>Platforms</label>
     <select id="platform-select" multiple>
-        <option>Amiga</option>
-        <option>Apple II</option>
-        <option>Arcade</option>
-        <option>Atari 2600</option>
-        <option>Atari 8-bit</option>
-        <option>Atari Jaguar</option>
-        <option>Atari ST</option>
-        <option>BBC Micro</option>
-        <option>Commodore 64</option>
-        <option>Dreamcast</option>
-        <option>Electronika 60</option>
-        <option>Game Boy</option>
-        <option>Game Boy Advance</option>
-        <option>Game Boy Color</option>
-        <option>GameCube</option>
-        <option>HP 2100</option>
-        <option>iOS</option>
-        <option>Linux</option>
-        <option>Mac</option>
-        <option>Maemo</option>
-        <option>NES</option>
-        <option>Nintendo 3DS</option>
-        <option>Nintendo 64</option>
-        <option>Nintendo DS</option>
-        <option>Nintendo Switch</option>
-        <option>PC</option>
-        <option>PDP-10</option>
-        <option>PlayStation</option>
-        <option>PS2</option>
-        <option>PS3</option>
-        <option>PS4</option>
-        <option>PS5</option>
-        <option>Saturn</option>
-        <option>Sega Genesis</option>
-        <option>Super NES</option>
-        <option>Wii</option>
-        <option>Wii U</option>
-        <option>Xbox</option>
-        <option>Xbox 360</option>
-        <option>Xbox One</option>
-        <option>Xbox Series X/S</option>
+        <!-- Platform options will be dynamically populated -->
     </select>
     
     <button onclick="filterGames()">Filter Games</button>
@@ -126,7 +43,33 @@
     async function loadData() {
         const response = await fetch('best_games_list.json');
         gamesData= await response.json();
+		
+		populateGenres();
+        populatePlatforms();
     }
+	
+	// Populate genres dynamically
+    function populateGenres() {
+        const genres = [...new Set(gamesData.map(game => game.Genre))];
+        const genreSelect = document.getElementById('genre-select');
+        genres.forEach(genre => {
+            const option = document.createElement('option');
+            option.value = genre;
+            option.textContent = genre;
+            genreSelect.appendChild(option);
+        });
+    }
+
+    // Populate platforms dynamically
+    function populatePlatforms() {
+        const platforms = [...new Set(gamesData.map(game => game["Original platform(s)"]).flat())];
+        const platformSelect = document.getElementById('platform-select');
+        platforms.forEach(platform => {
+            const option = document.createElement('option');
+            option.value = platform;
+            option.textContent = platform;
+            platformSelect.appendChild(option);
+        });
 
     // Filter and display games
     function filterGames() {
